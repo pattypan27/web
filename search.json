@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "path": "index.html",
+      "title": "Liuyi Pan",
+      "author": [],
+      "contents": "\r\n\r\n          \r\n          \r\n          Liuyi Pan\r\n          \r\n          \r\n          Home\r\n          Projects\r\n          Photos\r\n          Résumé\r\n          \r\n          \r\n          \r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Liuyi Pan\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            “I hope so.”\r\n            “No hoping, we will just do it.” — The Kominsky\r\n            Method S2E5\r\n            \r\n            \r\n            About me\r\n            Hello and 你好！Thanks for visiting my page!\r\n            My name is Liuyi Pan and I am currently studying at\r\n            University of Toronto as a senior student specializing in\r\n            Mathematics and its applications in Probability and\r\n            Statistics. In my spare time, I love photography.\r\n            Two Truths and a Lie\r\n            \r\n            I love cilantro.\r\n            \r\n            I’ve never been to New York City.\r\n            \r\n            I played the clarinet during elementary school.\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Liuyi Pan\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              “I hope so.”\r\n              “No hoping, we will just do it.” — The Kominsky\r\n              Method S2E5\r\n              \r\n              \r\n              About me\r\n              Hello and 你好！Thanks for visiting my page!\r\n              My name is Liuyi Pan and I am currently studying at\r\n              University of Toronto as a senior student specializing in\r\n              Mathematics and its applications in Probability and\r\n              Statistics. In my spare time, I love photography.\r\n              Two Truths and a Lie\r\n              \r\n              I love cilantro.\r\n              \r\n              I’ve never been to New York City.\r\n              \r\n              I played the clarinet during elementary school.\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    \r\n      © Copyright 2022 Liuyi Pan\r\n       The\r\n      site made with the distill R-package \r\n      powered by the distill web framework\r\n      \r\n      \r\n      \r\n\r\n  \r\n  ",
+      "last_modified": "2022-06-30T15:32:20-04:00"
+    },
+    {
+      "path": "photos.html",
+      "title": "Photos",
+      "description": "FOUR photos I recently took.",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-30T15:32:22-04:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects",
+      "description": "Selected projects in R and Python.\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\nUniversity of Toronto\r\nNew York University\r\nArts in R\r\n\r\nUniversity of Toronto\r\nproject (in R)\r\nrepo\r\npdf\r\nslides\r\nExploration of Factors that Affecting Airbnb Price Using Multiple\r\nLinear Regression (STA302)\r\n\r\n\r\n\r\nIs it Worth to Become an Airbnb Superhost? (STA304)\r\n\r\n\r\n\r\nInsights for MINGAR’s Marketing and Product Considerations — A\r\nstatistical analysis on user profile and deficiency investigation for\r\nMINGAR devices (STA303)\r\n\r\n\r\n\r\nThe Effect of Soaking Time, Lid Condition, and Water Volume on the\r\nTaste of Instant Cup Noodles (STA305)\r\n\r\n\r\n\r\nNew York University\r\nproject (in Python)\r\nrepo\r\npdf\r\nslides\r\nUsed Cars Data Exploratory Analysis and Prediction in Belarus\r\n\r\n\r\n\r\nArts in R\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-06-30T15:32:24-04:00"
+    }
+  ],
+  "collections": []
+}
