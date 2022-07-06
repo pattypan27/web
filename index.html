@@ -1009,18 +1009,20 @@
             <div id="about-me" class="section level2">
             <h2>About me</h2>
             <p>Hello and 你好！Thanks for visiting my page!</p>
-            <p>My name is Liuyi Pan and I am currently studying at
-            University of Toronto as a senior student specializing in
-            Mathematics and its applications in Probability and
-            Statistics. In my spare time, I love photography.</p>
+            <p>My name is Liuyi Pan and I am currently studying at University of Toronto as a senior student specializing in mathematics and majoring in statistics. In my spare time, I love photography.</p>
             <p><strong>Two Truths and a Lie</strong></p>
             <ul class="task-list">
-            <li><input type="checkbox" disabled="" />
-            I love cilantro.</li>
-            <li><input type="checkbox" disabled="" checked="" />
-            I’ve never been to New York City.</li>
-            <li><input type="checkbox" disabled="" checked="" />
-            I played the clarinet during elementary school.</li>
+            <li><input id="checkbox1" type="checkbox"  onclick = "checkLie('checkbox1')" />
+            I love cilantro. 
+            <span id="checkbox1-truth" style="display:none; margin-left:10px; color:#ff4141;">  Lie!</span></li>
+            <li><input id="checkbox2" type="checkbox"  onclick = "checkLie('checkbox2')" />
+            I’ve never been to New York City.
+            <span id="checkbox2-truth" style="display:none; margin-left:10px; color:#376cfd;">  Truth!</span></li>
+            <li><input id="checkbox3" type="checkbox"  onclick = "checkLie('checkbox3')" />
+            I played the clarinet during elementary school.
+            <span id="checkbox3-truth" style="display:none; margin-left:10px; color:#376cfd;">  Truth!</span></li>
+            <li id="truth-win" style = "display: none; color:#00c95a;">Win! 🎉</li>
+            <li id="truth-lose" style = "display: none; color:#ff4141;">Lose!</li>
             </ul>
             </div>
           </div>
@@ -1060,18 +1062,20 @@
               <div id="about-me" class="section level2">
               <h2>About me</h2>
               <p>Hello and 你好！Thanks for visiting my page!</p>
-              <p>My name is Liuyi Pan and I am currently studying at
-              University of Toronto as a senior student specializing in
-              Mathematics and its applications in Probability and
-              Statistics. In my spare time, I love photography.</p>
+              <p>My name is Liuyi Pan and I am currently studying at University of Toronto as a senior student specializing in mathematics and majoring in statistics. In my spare time, I love photography.</p>
               <p><strong>Two Truths and a Lie</strong></p>
               <ul class="task-list">
-              <li><input type="checkbox" disabled="" />
-              I love cilantro.</li>
-              <li><input type="checkbox" disabled="" checked="" />
-              I’ve never been to New York City.</li>
-              <li><input type="checkbox" disabled="" checked="" />
-              I played the clarinet during elementary school.</li>
+                <li><input id="checkbox4" type="checkbox"  onclick = "checkLie('checkbox4')" />
+                I love cilantro.
+                <span id="checkbox4-truth" style="display:none; margin-left:10px; color:#ff4141;">  Lie!</span></li>
+                <li><input id="checkbox5" type="checkbox"  onclick = "checkLie('checkbox5')" />
+                I’ve never been to New York City.
+                <span id="checkbox5-truth" style="display:none; margin-left:10px; color:#376cfd;">  Truth!</span></li>
+                <li><input id="checkbox6" type="checkbox"  onclick = "checkLie('checkbox6')" />
+                I played the clarinet during elementary school.
+                <span id="checkbox6-truth" style="display:none; margin-left:10px; color:#376cfd;">  Truth!</span></li>
+                <li id="truth-win-s" style = "display: none; color:#00c95a">Win 🎉</li>
+                <li id="truth-lose-s" style = "display: none; color:#ff4141;">Lose!</li>
               </ul>
               </div>
             </div>
@@ -1084,7 +1088,36 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
+    <script>
+      function checkLie(id){
+      if(document.getElementById(id).checked)
+      {
+        document.getElementById(id+'-truth').style.display = 'inline'
+      }else{
+        document.getElementById(id+'-truth').style.display = 'none'
+      }
+      if(document.getElementById("checkbox1").checked === false && document.getElementById("checkbox2").checked && document.getElementById("checkbox3").checked)
+      {
+        document.getElementById('truth-win').style.display = 'inline'
+        document.getElementById('truth-lose').style.display = 'none'
+      }
+      if(document.getElementById("checkbox1").checked)
+      {
+        document.getElementById('truth-lose').style.display = 'inline'
+        document.getElementById('truth-win').style.display = 'none'
+      }
+      if(document.getElementById("checkbox4").checked === false && document.getElementById("checkbox5").checked && document.getElementById("checkbox6").checked)
+      {
+        document.getElementById('truth-win-s').style.display = 'inline'
+        document.getElementById('truth-lose-s').style.display = 'none'
+      }
+      if(document.getElementById("checkbox4").checked)
+      {
+        document.getElementById('truth-lose-s').style.display = 'inline'
+        document.getElementById('truth-win-s').style.display = 'none'
+      }
+    }
+    </script>
       <!--radix_placeholder_site_after_body-->
       <!--/radix_placeholder_site_after_body-->
       <!--radix_placeholder_navigation_after_body-->
@@ -1096,7 +1129,5 @@
       <i class="fab fa-js"></i></span></p>
       </div>
       <!--/radix_placeholder_navigation_after_body-->
-
-  
   </body>
 </html>
